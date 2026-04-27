@@ -20,7 +20,7 @@ height:100vh;
 display:flex;
 justify-content:center;
 align-items:center;
-background:linear-gradient(135deg,#1f4037,#99f2c8);
+background:linear-gradient(135deg,#ff9966,#ff5e62);
 }
 
 .container{
@@ -33,7 +33,7 @@ text-align:center;
 }
 
 h2{
-color:#1f4037;
+color:#ff5e62;
 margin-bottom:25px;
 font-size:30px;
 }
@@ -42,8 +42,8 @@ label{
 display:block;
 text-align:left;
 font-weight:bold;
-margin-bottom:8px;
 margin-top:12px;
+margin-bottom:8px;
 color:#333;
 font-size:16px;
 }
@@ -59,8 +59,8 @@ transition:0.3s;
 }
 
 .input-box:focus{
-border-color:#1f4037;
-box-shadow:0 0 8px rgba(31,64,55,0.35);
+border-color:#ff5e62;
+box-shadow:0 0 8px rgba(255,94,98,0.35);
 }
 
 .btn{
@@ -69,7 +69,7 @@ margin-top:22px;
 padding:14px;
 border:none;
 border-radius:12px;
-background:linear-gradient(to right,#1f4037,#99f2c8);
+background:linear-gradient(to right,#ff9966,#ff5e62);
 color:white;
 font-size:18px;
 font-weight:bold;
@@ -93,12 +93,12 @@ display:block;
 margin-top:18px;
 text-decoration:none;
 font-weight:bold;
-color:#1f4037;
+color:#ff5e62;
 font-size:16px;
 }
 
 a:hover{
-color:#0f2e27;
+color:#e64a4a;
 }
 
 </style>
@@ -156,14 +156,14 @@ placeholder="Enter Student ID">
 
 <label>New Marks</label>
 <input type="text" name="marks" class="input-box"
-placeholder="Enter Marks (0-100)">
+placeholder="Enter New Marks">
 
-<input type="submit" value="Update Marks" class="btn">
+<input type="submit" value="Update Record" class="btn">
 
 </form>
 
 <div class="note">
-Enter valid Student ID and new marks
+Enter valid Student ID and marks
 </div>
 
 <a href="index.jsp">Back to Home</a>
@@ -172,6 +172,4 @@ Enter valid Student ID and new marks
 
 </body>
 </html>
-
-
 
